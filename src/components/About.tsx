@@ -36,14 +36,14 @@ const About = () => {
               <h3 className="text-xl font-semibold text-blue-400">Education</h3>
               <p className="text-gray-300">
                 Bachelor of Technology in Mechanical Engineering<br />
-                <span className="text-sm text-gray-400">Expected Graduation: 2024</span>
+                <span className="text-sm text-gray-400">Expected Graduation: 2026</span>
               </p>
             </div>
           </div>
           <div className="relative">
             <div className="aspect-square rounded-lg overflow-hidden">
               <img
-                src="/profile-placeholder.jpg"
+                src="/images/me photo.jpg"
                 alt="Tushar Raj Choudhary"
                 className="w-full h-full object-cover"
               />

@@ -20,7 +20,18 @@ const achievements = [
       </svg>
     ),
   },
+  {
+    title: 'Coordinator – Techno Bharati 2025',
+    description: 'Led the national-level technical fest at Bharat Vidyapeeth\'s College with 2000+ participants, managing 20+ events, logistics, and team coordination for seamless execution.',
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 21h8M12 17v4m0-4c-2.21 0-4-1.79-4-4V5h8v8c0 2.21-1.79 4-4 4zM5 5h.01M19 5h.01M4 5a2 2 0 002 2h1V5H4zm16 0h-3v2h1a2 2 0 002-2z" />
+      </svg>
+    ),
+  },
 ];
+
+          
 
 const AchievementCard = ({ achievement, index }: { achievement: typeof achievements[0]; index: number }) => {
   const [ref, inView] = useInView({

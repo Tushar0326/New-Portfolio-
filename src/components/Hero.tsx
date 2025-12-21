@@ -15,11 +15,11 @@ const Hero = () => {
               Tushar Raj Choudhary
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-3xl text-blue-400 mb-6">
-              Mechanical Engineering Student | AI & Python Enthusiast | Tech Innovator
+              Intern @ServiceNow X @Smartbridge | Former SDE Intern @Bluestock Fintech | McKinsey Forward Program 2025 
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-              Passionate about technology, software development, and innovative engineering solutions.
-              Currently exploring the intersection of mechanical engineering and artificial intelligence.
+              I'm Tushar Raj Choudhary, a Mechanical Engineering student and a passionate AI/ML and Full-Stack Developer focused on building scalable real-world products.
+              I'm currently doing an internship at ServiceNow, where I work with modern platforms and enterprise-level technologies while learning to build high-quality, reliable systems
             </p>
             <div className="flex justify-center space-x-4">
               <Link
@@ -46,4 +46,4 @@ const Hero = () => {
   );
 };
 
-export default Hero; 
+export default Hero;

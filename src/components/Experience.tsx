@@ -3,14 +3,21 @@ import { useInView } from 'react-intersection-observer';
 
 const experiences = [
   {
+    title: 'Intern',
+    company: 'ServiceNow X Smartbridge ',
+    period: '2025 - Present ',
+    description: 'Working on ServiceNow Administration.',
+    skills: ['ServiceNow Cloud'],
+  },
+  {
     title: 'SDE Intern',
     company: 'Bluestock Fintech',
-    period: '2024 - Present',
+    period: '2024',
     description: 'Working on modern web technologies including React, Express, and MongoDB.',
     skills: ['React', 'Express', 'MongoDB', 'Node.js'],
   },
   {
-    title: 'Intern',
+    title: 'SDE Intern',
     company: 'MainFlow Service Technology',
     period: '2023',
     description: 'Developed and maintained web applications using React and Express.',
